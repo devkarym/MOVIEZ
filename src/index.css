@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+/* Oculta o fundo da barra de rolagem */
+::-webkit-scrollbar {
+    width: 2px;
+    background: transparent; /* Fundo da barra */
+  }
+  
+  /* Estilo do "thumb" (a parte que você arrasta) */
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3); /* Pode ajustar a opacidade */
+    border-radius: 4px;
+  }
+  
+  /* Opcional: remove a barra de rolagem horizontal também */
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Fundo da trilha */
+  }
+  
